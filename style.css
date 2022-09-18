@@ -105,6 +105,11 @@ header nav ul li a {
     margin: 0 0 0 80px;
     width: 50%;
   }
+  .border2 {
+    border-right: 3px solid #39a6b2;
+    height: 680px;
+    flex: 12 6%;
+  }
 
   .card-info{
     flex :2 20%;
@@ -202,6 +207,7 @@ section h2 {
     align-items: center; 
     margin-left: 15px;
     width: 80%;  
+    
 }
 .picture{
     display: grid;
@@ -248,6 +254,12 @@ section h2 {
     grid-row-start: 5;
     grid-row-end: 4;
     }
+    .picture-items3 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 6;
+      grid-row-end: 6;
+      }
         
 
 
